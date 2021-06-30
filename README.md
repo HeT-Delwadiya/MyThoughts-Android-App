@@ -23,5 +23,7 @@
 ![8](https://user-images.githubusercontent.com/69249105/123921837-103a0080-d9a5-11eb-8269-eeabbdf75cea.png | width=50)
 ![9](https://user-images.githubusercontent.com/69249105/123921853-14661e00-d9a5-11eb-9768-fae965402c9b.png | width=50)
 
+#About 
 Developed by HeT
 
+<img src="https://camo.githubusercontent.com/..." data-canonical-src="https://user-images.githubusercontent.com/69249105/123921721-f26c9b80-d9a4-11eb-91d5-67b9f8c58f78.png" width="200" height="400" />
