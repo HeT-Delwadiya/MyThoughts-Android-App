@@ -26,4 +26,4 @@
 #About 
 Developed by HeT
 
-<img src="https://camo.githubusercontent.com/..." data-canonical-src="https://user-images.githubusercontent.com/69249105/123921721-f26c9b80-d9a4-11eb-91d5-67b9f8c58f78.png" width="200" height="400" />
+<img src="https://user-images.githubusercontent.com/69249105/123921721-f26c9b80-d9a4-11eb-91d5-67b9f8c58f78.png" data-canonical-src="https://user-images.githubusercontent.com/69249105/123921721-f26c9b80-d9a4-11eb-91d5-67b9f8c58f78.png" width="200" height="400" />
