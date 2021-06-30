@@ -1,5 +1,8 @@
 # MyThoughts-Android-App
  A platform where you can write your thoughts. Its free to use. Feel free to make changes in code.
+ 
+# Download Demo Apk
+ Link - https://github.com/HeT-Delwadiya/MyThoughts-Android-App/raw/main/MyThoughts-final.apk
 
 # Installation :
 ◉ Download the project and import it in android studio.
