@@ -115,6 +115,20 @@
         app:layout_constraintVertical_bias="0.207"
         android:background="@drawable/btn_round"/>
 
+    <Button
+        android:id="@+id/count"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/btn_round"
+        android:text="Words"
+        android:textColor="#F8FF27"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.158"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editThought_add"
+        app:layout_constraintVertical_bias="0.727" />
+
     <ImageView
         android:id="@+id/uploadImg_add"
         android:layout_width="60dp"
