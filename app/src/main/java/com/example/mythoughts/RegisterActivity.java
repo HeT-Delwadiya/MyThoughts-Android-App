@@ -62,7 +62,8 @@ public class RegisterActivity extends AppCompatActivity implements View.OnClickL
             public void onAuthStateChanged(@NonNull FirebaseAuth firebaseAuth) {
                 currentUser = firebaseAuth.getCurrentUser();
                 if (currentUser!=null) {
-                    //user already logged in
+                    startActivity(new Intent(RegisterActivity.this,JournalList.class));
+                    finish();
                 } else {
                     //user not logged in
                 }
@@ -144,6 +145,7 @@ public class RegisterActivity extends AppCompatActivity implements View.OnClickL
                                             journalApi.setUsersId(currentUserId);
                                             journalApi.setUsername(username);
                                             startActivity(new Intent(RegisterActivity.this, AddThought.class));
+                                            finish();
                                         } else {
                                             progressBar.setVisibility(View.INVISIBLE);
                                             Toast.makeText(RegisterActivity.this, "Something went wrong", Toast.LENGTH_LONG).show();

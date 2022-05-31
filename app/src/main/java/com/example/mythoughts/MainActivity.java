@@ -21,7 +21,7 @@ import com.google.firebase.firestore.QuerySnapshot;
 
 public class MainActivity extends AppCompatActivity {
     private Button getStarted;
-
+    private FirebaseAuth firebaseAuth;
 //    private FirebaseAuth firebaseAuth;
 //    private FirebaseAuth.AuthStateListener authStateListener;
 //    private FirebaseUser currentUser;
@@ -34,6 +34,14 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
+        firebaseAuth = FirebaseAuth.getInstance();
+        FirebaseUser currentUser = firebaseAuth.getCurrentUser();
+        if (currentUser != null) {
+            startActivity(new Intent(MainActivity.this,JournalList.class));
+            finish();
+        } else {
+            // User logged in
+        }
         getSupportActionBar().hide();
         getStarted = findViewById(R.id.getStarted);
 
