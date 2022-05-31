@@ -20,6 +20,6 @@
 
 
 # About 
-Developed by HeT
+Developed by [HeT](https://github.com/HeT-Delwadiya/)
 
-Contributed by @atisamhaq123
+Contributed by [@atisamhaq123](https://github.com/atisamStellar)
