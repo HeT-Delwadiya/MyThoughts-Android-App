@@ -38,8 +38,9 @@
             android:name=".RegisterActivity"
             android:exported="true" />
 
-        <activity android:name=".MainActivity">
-        </activity>
+        <activity 
+            android:name=".MainActivity"
+            android:exported="true" />
 
         <activity
             android:name=".SplashScreen"
