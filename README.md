@@ -21,4 +21,5 @@
 
 # About 
 Developed by HeT
-Contribution @atisamhaq123
+
+Contributed by @atisamhaq123
