@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:ignore="HardcodedText">
+
+    <item android:id="@+id/action_home_drawer"
+        android:title="Home"
+        android:icon="@drawable/ic_home_24" />
+
+    <item android:id="@+id/action_add_drawer"
+        android:title="Add Thought"
+        android:icon="@drawable/ic_add_24" />
+
+    <item android:id="@+id/action_privacy_drawer"
+        android:title="Privacy Policy"
+        android:icon="@drawable/ic_baseline_privacy_tip_24"/>
+
+    <item android:id="@+id/action_about_drawer"
+        android:title="About Us"
+        android:icon="@drawable/ic_info_24"/>
+
+    <item android:id="@+id/action_signout_drawer"
+        android:title="Log out"
+        android:icon="@drawable/ic_login_24"/>
+
+    <item android:id="@+id/me"
+        android:title="Made by HeT"
+        android:orderInCategory="200"
+        android:icon="@drawable/ic_baseline_check_circle_24"
+        android:iconTint="@color/white"/>
+
+    <item android:id="@+id/correct"
+        android:title="Auto correct"
+        android:orderInCategory="200"
+        android:icon="@drawable/ic_info_24"/>
+
+    <item android:id="@+id/sentiment"
+        android:title="Sentiment"
+        android:orderInCategory="200"
+        android:icon="@drawable/ic_baseline_check_circle_24"/>
+
+</menu>

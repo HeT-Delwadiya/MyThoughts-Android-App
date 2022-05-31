@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">My Thoughts</string>
+    <string name="no_thoughts_found">No thoughts found, Please add one by clicking "+" icon</string>
+    <string name="nav_open">Open</string>
+    <string name="nav_close">Close</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="about">This app is made by HeT. Its free to use for everyone. Check my github profile for more stuffs. If you have any query, mail me. Thanks</string>
+    <string name="mail">mailto:hetdelwadiya@gmail.com</string>
+    <string name="github">https://github.com/HeT-Delwadiya</string>
+</resources>
