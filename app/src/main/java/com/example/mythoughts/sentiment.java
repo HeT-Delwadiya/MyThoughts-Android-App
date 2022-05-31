@@ -2,7 +2,9 @@ package com.example.mythoughts;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
@@ -65,18 +67,19 @@ public class sentiment extends AppCompatActivity {
                         // try/catch block for returned JSON data
                         // see API's documentation for returned format
                         try {
-                            String object=(response).toString();
+                            String respons=(response).toString();
+                            String[] separated = respons.split(":");
+                            String object=separated[0];
+                            String object1=separated[1];
                             text1.setText(object);
+                            text2.setText(object1);
                             if (object.equals("Positive")){
-                                text2.setText("1.0");
                                 imageView.setImageResource(R.drawable.smile);
                             }
                             else if (object.equals("Negative")){
-                                text2.setText("-0.5");
                                 imageView.setImageResource(R.drawable.angry);
                             }
                             else{
-                                text2.setText("0.1");
                                 imageView.setImageResource(R.drawable.neutral);
                             }
                             // catch for the JSON parsing error
@@ -95,6 +98,9 @@ public class sentiment extends AppCompatActivity {
                     }
                 });
     }
+
+
+
 
 
 }

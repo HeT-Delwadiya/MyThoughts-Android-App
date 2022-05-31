@@ -35,12 +35,6 @@ public class SplashScreen extends AppCompatActivity {
 
         getSupportActionBar().hide();
         firebaseAuth = FirebaseAuth.getInstance();
-         currentUser= firebaseAuth.getCurrentUser();
-        if (currentUser != null) {
-            startActivity(new Intent(SplashScreen.this,JournalList.class));
-        } else {
-            // User logged in
-        }
 
         authStateListener = new FirebaseAuth.AuthStateListener() {
             @Override
@@ -69,7 +63,7 @@ public class SplashScreen extends AppCompatActivity {
                                                     startActivity(new Intent(SplashScreen.this,JournalList.class));
                                                     finish();
                                                 }
-                                            },3000);
+                                            },1000);
 
                                         }
                                     }
@@ -83,7 +77,7 @@ public class SplashScreen extends AppCompatActivity {
                             startActivity(new Intent(SplashScreen.this,MainActivity.class));
                             finish();
                         }
-                    },3000);
+                    },1000);
 
                 }
 

@@ -197,13 +197,13 @@ public class JournalList extends AppCompatActivity implements NavigationView.OnN
                     if(user!=null && firebaseAuth!=null) {
                         journalList.clear();
                         startActivity(new Intent(JournalList.this,correct.class));
-                        finish();
+
                     } return true;
                 case R.id.sentiment:
                     if(user!=null && firebaseAuth!=null) {
                         journalList.clear();
                         startActivity(new Intent(JournalList.this,sentiment.class));
-                        finish();
+
                     } return true;
 
                 case R.id.action_add_drawer :
@@ -214,13 +214,11 @@ public class JournalList extends AppCompatActivity implements NavigationView.OnN
                 case R.id.action_privacy_drawer :
                     if(user!=null && firebaseAuth!=null) {
                         startActivity(new Intent(JournalList.this, com.example.mythoughts.Privacy.class));
-                        finish();
                     } return true;
 
                 case R.id.action_about_drawer :
                     if(user!=null && firebaseAuth!=null) {
                         startActivity(new Intent(JournalList.this,About.class));
-                        finish();
                     } return true;
 
                 case R.id.action_signout_drawer :

@@ -61,6 +61,7 @@ public class LoginActivity extends AppCompatActivity implements View.OnClickList
         FirebaseUser currentUser = firebaseAuth.getCurrentUser();
         if (currentUser != null) {
             startActivity(new Intent(LoginActivity.this,JournalList.class));
+            finish();
         } else {
             // User logged in
         }
